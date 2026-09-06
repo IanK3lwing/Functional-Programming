@@ -9,5 +9,19 @@ cd functional-programming-lab
 sbt compile
 ```
 
+
+## Rules
+
+### Stacks required
+
+Just Java and Scala are permition.
+
+### Structure
+
+src/capitulos/<nome_do_capitulo>
+|
+|--> scala
+|--> java
+
 Os fontes ficam em `src/main/java` e `src/main/scala`. Os testes ficam em
 `src/test/java` e `src/test/scala`.
