@@ -8,3 +8,8 @@ project/project/
 *.class
 *.jar
 *.log
+
+# SSH keys must never be stored in the project
+githubIan
+githubIan.pub
+*.pem
