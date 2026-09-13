@@ -1,0 +1,69 @@
+
+~/workspace$ git add .
+~/workspace$ git commit -m "write about heiger-higth-function"
+[main b507019] write about heiger-higth-function
+ 10 files changed, 134 insertions(+), 6 deletions(-)
+ create mode 100644 functional-programming-lab/chapters/01-o-que-e-a-programacao-funcional/java/higher-order-functins/functionalApproach.java
+ create mode 100644 functional-programming-lab/chapters/01-o-que-e-a-programacao-funcional/java/higher-order-functins/imperativeApproach.java
+ delete mode 100644 functional-programming-lab/chapters/01-o-que-e-a-programacao-funcional/java/immutability.java
+ create mode 100644 functional-programming-lab/chapters/01-o-que-e-a-programacao-funcional/java/immutability/immutability.java
+ create mode 100644 functional-programming-lab/chapters/01-o-que-e-a-programacao-funcional/java/immutability/immutabilityThree.java
+ create mode 100644 functional-programming-lab/chapters/01-o-que-e-a-programacao-funcional/java/immutability/immutabilityTwo.java
+ create mode 100644 functional-programming-lab/chapters/01-o-que-e-a-programacao-funcional/scala/purityFunction/dontPurityFunctin.scala
+ create mode 100644 functional-programming-lab/githubIan
+ create mode 100644 functional-programming-lab/githubIan.pub
+~/workspace$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream gitsafe-backup main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+~/workspace$ git pull ^C
+~/workspace$ git push --set-upstream gitsafe-backup main
+Enumerating objects: 26, done.
+Counting objects:   3% (1/26Counting objects:   7% (2/26Counting objects:  11% (3/26Counting objects:  15% (4/26Counting objects:  19% (5/26Counting objects:  23% (6/26Counting objects:  26% (7/26Counting objects:  30% (8/26Counting objects:  34% (9/26Counting objects:  38% (10/2Counting objects:  42% (11/2Counting objects:  46% (12/2Counting objects:  50% (13/2Counting objects:  53% (14/2Counting objects:  57% (15/2Counting objects:  61% (16/2Counting objects:  65% (17/2Counting objects:  69% (18/2Counting objects:  73% (19/2Counting objects:  76% (20/2Counting objects:  80% (21/2Counting objects:  84% (22/2Counting objects:  88% (23/2Counting objects:  92% (24/2Counting objects:  96% (25/2Counting objects: 100% (26/2Counting objects: 100% (26/26), done.
+Delta compression using up to 4 threads
+Compressing objects:   5% (1Compressing objects:  10% (2Compressing objects:  15% (3Compressing objects:  21% (4Compressing objects:  26% (5Compressing objects:  31% (6Compressing objects:  36% (7Compressing objects:  42% (8Compressing objects:  47% (9Compressing objects:  52% (1Compressing objects:  57% (1Compressing objects:  63% (1Compressing objects:  68% (1Compressing objects:  73% (1Compressing objects:  78% (1Compressing objects:  84% (1Compressing objects:  89% (1Compressing objects:  94% (1Compressing objects: 100% (1Compressing objects: 100% (19/19), done.
+Writing objects:  52% (10/19Writing objects:  57% (11/19Writing objects:  63% (12/19Writing objects:  68% (13/19Writing objects:  73% (14/19Writing objects:  78% (15/19Writing objects:  84% (16/19Writing objects:  89% (17/19Writing objects:  94% (18/19Writing objects: 100% (19/19Writing objects: 100% (19/19), 3.62 KiB | 3.62 MiB/s, done.
+Total 19 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+To git://gitsafe:5418/backup.git
+   0369ded..b507019  main -> main
+branch 'main' set up to track 'gitsafe-backup/main'.
+~/workspace$ git status
+On branch main
+Your branch is up to date with 'gitsafe-backup/main'.
+
+nothing to commit, working tree clean
+~/workspace$ git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+~/workspace$ git push --set-upstream gitsafe-backup main^C
+~/workspace$ git remtoe
+git: 'remtoe' is not a git command. See 'git --help'.
+
+The most similar command is
+    remote
+~/workspace$ git temore
+git: 'temore' is not a git command. See 'git --help'.
+
+The most similar command is
+    remote
+~/workspace$ git remote
+gitsafe-backup
+~/workspace$ git push -u gitsage-backup main
+fatal: 'gitsage-backup' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+~/workspace$ git status
+On branch main
+Your branch is up to date with 'gitsafe-backup/main'.
+
+nothing to commit, working tree clean
