@@ -1,0 +1,23 @@
+# Java / Scala / SBT
+target/
+project/target/
+project/project/
+*.class
+*.jar
+*.log
+.bsp/
+.metals/
+.bloop/
+
+# IDEs
+/.idea
+.vscode/
+.classpath
+.project
+.settings/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.cache/
+.local/
