@@ -11,13 +11,13 @@ public class functionalApproach {
     System.out.println("lista antes de ser elevada ao quadrado");
     System.out.println(Arrays.toString(mylist));
 
-    int[] mylistPow = IntStream.of(mylist).map( el -> (int) Math.pow((double) el, 2.0)).toArray();
+    int[] mylistPow = IntStream.of(mylist).map( el -> { // declaração de uma lambda funcion
+      return (int) Math.pow((double) el, 2.0);
+    }).toArray();
 
     System.out.println("lista elevada ao quadrado");
     System.out.println(Arrays.toString(mylistPow));
-
-    
-
-    
+   
   }
+
 }
